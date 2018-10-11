@@ -6,3 +6,44 @@
   border: 2px solid #000;
   font-size: 2em;
 }
+
+.tags-container {
+  text-align: left;
+}
+
+.tags-container .text-field {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tags-container .text-field .fa-search {
+  position: absolute;
+  left: 0;
+}
+
+.tags-container .text-field .fa-close {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.tags-container .text-field .fa-times {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.tags-container .text-field .fa-plus-circle {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 25;
+}
+
+.tags-container .text-field input[type="text"] {
+  padding-right: 20px;
+}

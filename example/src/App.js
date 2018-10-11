@@ -1,13 +1,22 @@
-import React, { Component } from 'react'
-
-import ExampleComponent from 'react-tags-field'
+import React, { Component } from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import TagsField from 'react-tags-field';
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
+      <MuiThemeProvider>
+        <div style={{ display: 'flex' }}>
+          <div style={{ width: '600px', margin: 'auto', marginTop: 100 }}>
+            <TagsField
+              themeColor="orange"
+              caption="Give us some words"
+              isMandatory
+              validationMessage="Please input some words"
+            />
+          </div>
+        </div>
+      </MuiThemeProvider>
+    );
   }
 }
