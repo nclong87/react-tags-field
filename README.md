@@ -16,17 +16,37 @@ npm install --save react-tags-field
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import TagsField from 'react-tags-field';
 
-import MyComponent from 'react-tags-field'
-
-class Example extends Component {
-  render () {
+export default class App extends Component {
+  render() {
     return (
-      <MyComponent />
-    )
+      <MuiThemeProvider>
+        <div style={{ display: 'flex' }}>
+          <div style={{ width: '600px', margin: 'auto', marginTop: 100 }}>
+            <TagsField
+              themeColor="orange"
+              caption="Give us some words"
+              isMandatory
+              validationMessage="Please input some words"
+            />
+          </div>
+        </div>
+      </MuiThemeProvider>
+    );
   }
 }
+
+```
+
+## Run demo
+
+```
+npm run build
+cd example
+npm start
 ```
 
 ## License
