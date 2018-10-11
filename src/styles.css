@@ -11,32 +11,32 @@
   text-align: left;
 }
 
-.tags-container .text-field {
+.tags-container > .text-field {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.tags-container .text-field .fa-search {
+.tags-container > .text-field > .fa-search {
   position: absolute;
   left: 0;
 }
 
-.tags-container .text-field .fa-close {
+.tags-container > .text-field > .fa-close {
   position: absolute;
   right: 0;
   cursor: pointer;
 }
 
-.tags-container .text-field .fa-times {
+.tags-container > .text-field > .fa-times {
   position: absolute;
   right: 0;
   cursor: pointer;
   z-index: 1;
 }
 
-.tags-container .text-field .fa-plus-circle {
+.tags-container > .text-field > .fa-plus-circle {
   position: absolute;
   right: 0;
   cursor: pointer;
@@ -46,4 +46,9 @@
 
 .tags-container .text-field input[type="text"] {
   padding-right: 20px;
+}
+
+.tags-container .error-text {
+  font-size: 14px;
+  color: red;
 }

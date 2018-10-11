@@ -1,6 +1,6 @@
 {
   "name": "react-tags-field",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provide TagsField component, allow user input list of words",
   "author": "nclong87",
   "license": "MIT",
@@ -62,7 +62,8 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "material-ui": "^0.18.6"
+    "material-ui": "^0.18.6",
+    "less": "^3.8.1"
   },
   "files": [
     "dist"

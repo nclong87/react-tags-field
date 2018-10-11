@@ -3,6 +3,7 @@ import React, { PureComponent } from 'react';
 import TextField from 'material-ui/TextField';
 import * as PropTypes from 'prop-types';
 import Chip from 'material-ui/Chip';
+import './styles.less';
 
 const _ = require('lodash');
 
@@ -59,7 +60,7 @@ class TagsField extends PureComponent {
     }
     if (this.state.tags.indexOf(text) >= 0) {
       this.setState({
-        errorText: `Word ${text} already exists`,
+        errorText: `Word "${text}" already exists`,
       });
       return;
     }
