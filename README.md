@@ -2,7 +2,7 @@
 
 > Provide TagsField component, allow user input list of words
 
-[![NPM](https://img.shields.io/npm/v/react-tags-field.svg)](https://www.npmjs.com/package/react-tags-field) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-tags-field.svg)](https://www.npmjs.com/package/react-tags-field) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![react-tags-field](http://img.shields.io/npm/dm/react-tags-field.svg)](https://www.npmjs.com/package/react-tags-field)
 
 ## Screenshot
 ![Screenshot](https://i.imgur.com/0dcF5Sa.png)
